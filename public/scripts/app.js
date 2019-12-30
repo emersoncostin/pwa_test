@@ -83,7 +83,7 @@ function renderForecast(card, data) {
 
   // Render the forecast data into the card.
  
-  card.querySelector('.imagem').setAttribute("src", "http://www.dbm.com.br/wp-content/uploads/2018/03/quote-1.jpg")
+  //card.querySelector('.imagem').setAttribute("src", "http://www.dbm.com.br/wp-content/uploads/2018/03/quote-1.jpg")
 
   // Render the next 7 days.
   
@@ -192,7 +192,7 @@ function loadLocationList() {
   if (!locations || Object.keys(locations).length === 0) {
     const key = '40.7720232,-73.9732319';
     locations = {};
-    locations[key] = {label: 'Marechal', geo: '40.7720232,-73.9732319', photo: "http://www.dbm.com.br/wp-content/uploads/2018/03/slide2.jpg"};
+    locations[key] = {label: 'Marechal', geo: '40.7720232,-73.9732319', photo: "http://www.dbm.com.br/wp-content/uploads/2018/03/slide3.jpg"};
   }
   return locations;
 }
